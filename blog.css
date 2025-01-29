@@ -1,0 +1,154 @@
+header {
+    background-color: #191b2d;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #4d5bb1;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+/* Article Styling */
+article {
+    flex: 3;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    line-height: 1.8;
+    font-size: 1rem;
+    color: #333;
+}
+
+article h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+article p {
+    margin-bottom: 15px;
+}
+
+article ul {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+article a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+article a:hover {
+    color: #1b3a20;
+    text-decoration: underline;
+}
+
+/* Aside Styling */
+aside {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    margin-left: 20px;
+    height: fit-content; 
+    position: sticky;
+    top: 20px;
+}
+
+aside h4 {
+    margin-top: 0;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+aside ul li:hover {
+    background: #f0f0f0;
+    border-radius: 5px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #11049e;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 5px;
+    transition: color 0.3s ease;
+}
+
+aside ul li a:hover {
+    color: #766fc6;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #191b2d;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    article {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+        position: static; 
+    }
+}

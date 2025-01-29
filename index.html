@@ -4,90 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THE HTML Foundation</title>
+    <link rel="stylesheet" type="text/css" href="style.css">  
 </head>
 <body>
     <header>
-        <h1>Charlize Mikaela Nadela</h1>
+        <h1>Introduction to Web Development</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="blog-one.html">Blog 1</a></li>
-                <li><a href="blog-two.html">Blog 2</a></li>
-                <li><a href="blog-three.html">Blog 3</a></li>
+                <li><a href="index.html">HTML</a></li>
+                <li><a href="blog-one.html">CSS</a></li>
+                <li><a href="blog-two.html">JavaScript</a></li>
+                <li><a href="blog-three.html">Frameworks</a></li>
             </ul>
         </nav>
     </header>
-    <article>
-        <header>
-            <h2>HTML - The Foundation of the Web</h2>
-            <p>Posted by <strong>Charlize Nadela</strong></p>
-        </header>
-        <p>
-            <strong>HTML (Hypertext Markup Language)</strong> is the most basic building block of the Web.
-            It defines the meaning and structure of web content. Other technologies besides HTML are generally
-            used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).
-        </p>
 
-        <p>
-            "Hypertext" refers to links that connect web pages to one another, either within a single website or
-            between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and
-            linking it to pages created by other people, you become an active participant in the World Wide Web.            
-        </p>
+    <div class="container">
+        <article>
+            <header>
+                <h2>HTML - The Foundation of the Web</h2>
+                <p>Posted by <strong>Charlize Nadela</strong></p>
+            </header>
+            <p>
+                <strong>HTML (Hypertext Markup Language)</strong> is the most basic building block of the Web.
+                It defines the meaning and structure of web content.
+            </p>
 
-        <h3>What is HTML?</h3>
-        <p>
-            HTML stands for <strong>H</strong>yper<strong>T</strong>ext<strong>M</strong>arkup
-            <strong>L</strong>anguage. It is a markup language that defines the structure of your content. HTML
-            consists of a series of elements, which you use to enclose, or wrap, different parts of the content to
-            make it appear a certain way, or act a certain way. The <em>enclosing</em> tags can make a word or
-            image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on. 
-        </p>
+            <p>
+                "Hypertext" refers to links that connect web pages to one another, either within a single website or
+                between websites. By uploading content to the Internet and linking it to other pages, you become an active participant in the World Wide Web.            
+            </p>
 
-        <p>
-            HTML consists of elements that describe different types of content:
-            paragraphs, links, headings, images, video, etc. Web browsers understand
-            HTML and render HTML code as websites.
-        </p>
+            <h3>What is HTML?</h3>
+            <p>
+                HTML stands for <strong>H</strong>yper<strong>T</strong>ext<strong>M</strong>arkup
+                <strong>L</strong>anguage. It is a markup language that defines the structure of your content.
+            </p>
 
-        <p>The Main Parts of Elements are as Follows</p>
+            <p>The Main Parts of HTML Elements:</p>
+            <ol>
+                <li>The opening tag</li>
+                <li>The closing tag</li>
+                <li>The content</li>
+                <li>The element</li>
+            </ol>
 
-        <ol>
-            <li>The opening tag</li>
-            <li>The closing tag</li>
-            <li>The content</li>
-            <li>The element</li>
-        </ol>
+            <p>
+                Learn more at <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs</a>
+            </p>
 
-        <p>
-            You can learn more at <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs</a>
-        </p>
+            <h3>Why should you learn HTML?</h3>
+            <ul>
+                <li>Foundation of Web Development</li>
+                <li>Fundamental Skill of a Web Developer</li>
+                <li>Create and customize content on the Web</li>
+                <li>Career Opportunities</li>
+                <li>Business Solutions</li>           
+            </ul>
 
-        <h3>Why should you learn HTML?</h3>
-        <p>
-            Learning HTML is important for several reasons:
-        </p>
+            <p>By practicing HTML, you will encounter errors, but you'll overcome them all!</p>
+            
+            <h3>Subscribe to Our Newsletter</h3>
+            <form>
+                <input type="email" name="email" placeholder="Enter your Email Address" required>
+                <input type="submit" value="Subscribe">
+            </form>
+        </article>
 
-        <ul>
-            <li>Foundation of Web Development</li>
-            <li>Fundamental Skill of a Web Developer</li>
-            <li>Create and customize content on the Web</li>
-            <li>Career Opportunities</li>
-            <li>Business Solutions</li>           
-        </ul>
-
-        <p>
-            By doing a lot of practice, you will definitely experience errors and bugs in your code, but don't
-            worry, you will overcome them all!
-        </p>
-        
-        <h3>Subscribe to Our Newsletter</h3>
-        <form>
-            <input type="email" name="email" placeholder="Enter your Email Address" required>
-            <input type="submit" value="Subscribe">
-        </form>
-    </article>
-    <aside>
-        <h4>Related posts</h4>
+        <aside>
+            <h4>Related posts</h4>
             <ul>
                 <li>
                     <h4>What is CSS?</h4>
@@ -95,7 +80,7 @@
                     <a href="blog-one.html">Read Here</a>
                 </li>
                 <li>
-                    <h4>What is Javascript?</h4>
+                    <h4>What is JavaScript?</h4>
                     <p>By Charlize Nadela</p>
                     <a href="blog-two.html">Read Here</a>
                 </li>
@@ -105,11 +90,11 @@
                     <a href="blog-three.html">Read Here</a>
                 </li>
             </ul>
-    </aside>
+        </aside>
+    </div>
 
     <footer>
-        Copyright &copy; 2025 by Charlize All Rights Reserved.
+        Copyright &copy; 2025 by <a href="https://github.com/charlysss-l" target="_blank">Charlize Mikaela Nadela</a>  All Rights Reserved.
     </footer>
-       
 </body>
 </html>
