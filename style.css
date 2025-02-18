@@ -1,4 +1,4 @@
-/* General Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,25 +11,24 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Prevent horizontal scroll */
+    overflow-x: hidden;
 }
 
 header {
-    background-color: #191b2d; 
-    color: white;
+    color: black;
     padding: 15px 0;
     text-align: center;
     width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.104);
 }
 
 header h1 {
     margin: 0;
     font-size: 1.8rem;
-    color: white;
+    color: black;
 }
 
 nav ul {
-    padding: 0;
     list-style-type: none;
     text-align: center;
 }
@@ -40,17 +39,15 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: black;
+
     text-decoration: none;
-    font-weight: bold;
     transition: color 0.3s ease;
-    margin: 10px;
 }
 
 nav ul li a:hover {
-    color: #4d5bb1; 
+    color: #4d5bb1;
 }
-
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -81,7 +78,7 @@ article:hover {
 article h2 {
     font-size: 2rem;
     margin-bottom: 15px;
-    color: #ffffff;
+    color: black;
     text-align: center;
 }
 
@@ -186,19 +183,19 @@ aside ul li a:hover {
     color: #766fc6; 
 }
 
+/* Footer */
 footer {
     text-align: center;
     padding: 15px;
-    background-color: #191b2d;
-    color: white;
-    width: 100%;
+   border-top: 1px solid #191b2d;
+   color: black;
+    margin-top: 20px;
 }
 
-footer a {
+footer a{
     text-decoration: none;
-    color: #9c93c9;
+    color: rgb(3, 3, 131);
 }
-
 /* Responsive Design */
 @media (max-width: 1024px) {
     .container {
